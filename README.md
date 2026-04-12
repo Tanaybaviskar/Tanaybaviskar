@@ -1,56 +1,36 @@
-# hey, tanay here 👋
+hey, tanay here 👋
 
-**you:** what do you do?
-**me:** i build things that *actually run*
+i build things that do something — not just sit in a repo.
+most of my work sits somewhere between
+**ai 🤖 + systems ⚙️ + web 🌐**
 
----
+if you’re here, you’re probably checking what i’ve built, so quick context —
+i like figuring out how things work, breaking them, and putting them back together in a way that actually runs.
 
-**you:** like what?
-**me:** mostly stuff around
-→ ai 🤖
-→ systems ⚙️
-→ web 🌐
+right now i’m working on:
+- **core ai systems + agent workflows**
+- **lng geoenv** (environment + decision systems)
+- getting different systems to talk to each other
 
-and sometimes things that probably shouldn’t work (but do)
-
----
-
-**you:** what are you working on right now?
-
-```txt id="q2r7q4"
-- core ai systems + agent workflows
-- lng geoenv (environment + decision systems)
-- making different systems talk to each other
-```
+if you want to see what that looks like in practice:
+🔗 **CoreAI** ![Last Commit](https://img.shields.io/github/last-commit/Tanaybaviskar/CoreAI?style=flat-square&color=black&label=updated)
+🔗 **lng-geoenv** ![Last Commit](https://img.shields.io/github/last-commit/Tanaybaviskar/lng-geoenv?style=flat-square&color=black&label=updated)
+*(and yeah, pinned repos cover the rest)*
 
 ---
 
-**you:** anything worth checking out?
-**me:** yeah, these ↓
-
-* 🔗 https://github.com/Tanaybaviskar/CoreAI
-* 🔗 https://github.com/Tanaybaviskar/lng-geoenv
-
-(and yeah, the pinned repos tell the rest)
-
+### ⚡ live logs (what i broke/fixed recently):
 ---
 
-**you:** how do you build?
-**me:**
+i care more about:
+- things working > things looking good
+- systems that hold up > quick demos
+- understanding > copying
 
-* break things
-* fix them
-* repeat until it works
+i don’t have everything figured out —
+but i build, test, break, and improve fast.
 
----
+if something here interests you, go explore.
+that’s the whole point.
 
-**you:** so you’ve figured everything out?
-**me:** not even close
-
----
-
-![stats](https://github-readme-stats.vercel.app/api?username=Tanaybaviskar\&show_icons=true\&hide_border=true\&theme=transparent)
-
----
-
-if you’re building something interesting, i’m probably in
+[![wakatime](https://wakatime.com/badge/user/YOUR-WAKATIME-ID.svg?style=flat-square)](https://wakatime.com)
