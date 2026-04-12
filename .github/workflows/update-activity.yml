@@ -9,7 +9,7 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # This gives the bot permission to push changes
+      contents: write
       
     steps:
       - name: Checkout Repository
@@ -19,34 +19,26 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 1. Use official GitHub CLI to fetch your last 5 coding events
+          # Fetch ONLY the last 2 coding events
           gh api /users/Tanaybaviskar/events/public \
-            --jq '[.[] | select(.type=="PushEvent" or .type=="PullRequestEvent" or .type=="IssuesEvent" or .type=="CreateEvent")] | .[0:5] | map("- \(.type) on `\(.repo.name)`") | join("\n")' > activity.md
+            --jq '[.[] | select(.type=="PushEvent" or .type=="PullRequestEvent" or .type=="IssuesEvent" or .type=="CreateEvent")] | .[0:2] | map("- \(.type) on `\(.repo.name)`") | join("\n")' > activity.md
           
-          # 2. Make the bot language sound human
+          # Rename events to human readable text
           sed -i 's/PushEvent/Pushed code/g' activity.md
           sed -i 's/PullRequestEvent/Opened PR/g' activity.md
           sed -i 's/IssuesEvent/Opened issue/g' activity.md
           sed -i 's/CreateEvent/Created repo\/branch/g' activity.md
           
-          # 3. Inject the logs exactly between your invisible tags
-          awk '
-            // {
-              print
-              system("cat activity.md")
-              skip=1
-              next
-            }
-            // {
-              skip=0
-            }
-            !skip {
-              print
-            }
-          ' README.md > temp.md
-          
-          # 4. Clean up
-          mv temp.md README.md
+      - name: Inject Safely into README
+        run: |
+          python -c "
+          import re
+          with open('README.md', 'r') as f: content = f.read()
+          with open('activity.md', 'r') as f: activity = f.read().strip()
+          # This regex strictly replaces ONLY what is between the two tags
+          new_content = re.sub(r'.*?', f'\n{activity}\n', content, flags=re.DOTALL)
+          with open('README.md', 'w') as f: f.write(new_content)
+          "
           rm activity.md
 
       - name: Commit and Push Changes
