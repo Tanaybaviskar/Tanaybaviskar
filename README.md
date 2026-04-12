@@ -33,4 +33,4 @@ that’s the whole point
 
 <br>
 
-[![wakatime](https://wakatime.com/badge/user/@tanaybaviskar.svg?style=flat-square)](https://wakatime.com/@tanaybaviskar)
+[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=tanaybaviskar&layout=compact&theme=transparent&hide_border=true&title_color=00d1ff&text_color=ffffff)](https://wakatime.com/@tanaybaviskar)
