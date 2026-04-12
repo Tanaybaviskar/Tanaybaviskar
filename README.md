@@ -1,32 +1,102 @@
-# ⚡ Tanay Baviskar
+![typing](https://readme-typing-svg.herokuapp.com?lines=it+worked+yesterday;why+is+it+broken+today;okay+fixed+it;wait+no+it's+worse&color=FFFFFF&center=true)
+# hey, tanay here 👋
 
-### **Full-Stack Engineer // Systems Architect**
-Moving ideas from `localhost` to the edge. Currently building **CoreAI**.
+i like building things that *do something* — not just sit in a repo.
 
----
-
-## 🛠 Tech Stack
-![My Skills](https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,mongodb,tailwind,py,tensorflow,docker,git,vercel&perline=12)
+most of my work ends up somewhere between
+ai 🤖 + systems ⚙️ + web 🌐 + “let’s see if this actually works”
 
 ---
 
-## 🏗️ Active Projects
-* **[CoreAI](https://github.com/Tanaybaviskar/CoreAI)** - Integrated intelligence systems. (Current Focus)
-* **[Digital Portfolio](https://portfolio-alpha-six-39.vercel.app/)** - Exploring clean aesthetics and performant UI.
+### what i'm usually doing
+
+* breaking something that was working 10 minutes ago
+* trying to make ai systems a little less dumb
+* building full projects instead of isolated features
+* going down random tech rabbit holes at 3am
 
 ---
 
-## 📊 Performance Metrics
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tanaybaviskar&show_icons=true&theme=transparent&hide_border=true&title_color=00d1ff&icon_color=00d1ff&text_color=ffffff" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanaybaviskar&layout=compact&theme=transparent&hide_border=true&title_color=00d1ff&text_color=ffffff" height="165" />
-</p>
+### current focus
+
+* agentic ai (crewai, llms, autonomy experiments)
+* making systems talk to each other (backend + blockchain + ai)
+* building things that *feel real*, not just demos
 
 ---
 
-## 📫 Get in touch
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanaybaviskar/)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-alpha-six-39.vercel.app/)
+### things i care about
+
+* clean logic > fancy UI
+* systems that scale (or at least don’t collapse instantly)
+* understanding how stuff works under the hood
 
 ---
-<p align="right"><i>"Shipping code that matters."</i></p>
+
+### a few things i've built
+
+instead of listing everything here —
+👉 check pinned repos, they tell the story better
+
+(but yeah, there’s ai, blockchain, full-stack apps, and some slightly chaotic experiments)
+
+---
+
+### activity
+
+![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Tanaybaviskar\&theme=github-compact\&hide_border=true)
+
+---
+
+### live stats (because why not)
+
+![stats](https://github-readme-stats.vercel.app/api?username=Tanaybaviskar\&show_icons=true\&hide_border=true\&theme=transparent)
+
+![streak](https://streak-stats.demolab.com?user=Tanaybaviskar\&hide_border=true\&theme=transparent)
+
+---
+
+### currently
+
+```txt
+building > planning
+learning > consuming
+shipping > perfecting
+```
+
+---
+
+### logs
+
+```txt
+[✓] built things that actually run
+[✓] worked across ai, web, blockchain
+[✓] shipped projects (not just ideas)
+[ ] still figuring everything out
+```
+
+---
+
+### visitors
+
+![visitors](https://komarev.com/ghpvc/?username=Tanaybaviskar\&label=profile+views\&color=0e75b6\&style=flat)
+
+---
+
+### outside code
+
+* part of astronomy & physics society 🌌
+* enjoy figuring out how things work (not just in code)
+* occasionally touch grass (rare)
+
+---
+
+### if you made it this far
+
+you should probably check out my work
+
+or don’t. but you’re missing out.
+
+---
+
+⭐ if something i built helps you, that’s already a win
