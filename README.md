@@ -32,5 +32,4 @@ if something here interests you, go explore
 that’s the whole point
 
 <br>
-
-[![wakatime](https://wakatime.com/badge/user/tanaybaviskar.svg?style=flat-square)](https://wakatime.com)
+[![wakatime](https://wakatime.com/badge/user/@tanaybaviskar.svg?style=flat-square)](https://wakatime.com/@tanaybaviskar)
