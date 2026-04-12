@@ -33,4 +33,4 @@ that’s the whole point
 
 <br>
 
-[![wakatime](https://wakatime.com/badge/user/YOUR-WAKATIME-ID.svg?style=flat-square)](https://wakatime.com)
+[![wakatime](https://wakatime.com/badge/user/tanaybaviskar.svg?style=flat-square)](https://wakatime.com)
