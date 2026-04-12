@@ -1,11 +1,12 @@
 hey, tanay here 👋
 
-i build things that do something — not just sit in a repo.
+i build things that do something — not just sit in a repo
 most of my work sits somewhere between
 **ai 🤖 + systems ⚙️ + web 🌐**
 
-if you’re here, you’re probably checking what i’ve built, so quick context —
-i like figuring out how things work, breaking them, and putting them back together in a way that actually runs.
+if you’re here, you’re probably checking what i’ve built
+so quick context —
+i like figuring out how things work, breaking them, and putting them back together in a way that actually runs
 
 right now i’m working on:
 - **core ai systems + agent workflows**
@@ -13,8 +14,9 @@ right now i’m working on:
 - getting different systems to talk to each other
 
 if you want to see what that looks like in practice:
-🔗 **CoreAI** ![Last Commit](https://img.shields.io/github/last-commit/Tanaybaviskar/CoreAI?style=flat-square&color=black&label=updated)
-🔗 **lng-geoenv** ![Last Commit](https://img.shields.io/github/last-commit/Tanaybaviskar/lng-geoenv?style=flat-square&color=black&label=updated)
+
+🔗 **[CoreAI](https://github.com/Tanaybaviskar/CoreAI)** ![Last Commit](https://img.shields.io/github/last-commit/Tanaybaviskar/CoreAI?style=flat-square&color=black&label=updated)
+🔗 **[lng-geoenv](https://github.com/Tanaybaviskar/lng-geoenv)** ![Last Commit](https://img.shields.io/github/last-commit/Tanaybaviskar/lng-geoenv?style=flat-square&color=black&label=updated)
 *(and yeah, pinned repos cover the rest)*
 
 ---
@@ -28,9 +30,11 @@ i care more about:
 - understanding > copying
 
 i don’t have everything figured out —
-but i build, test, break, and improve fast.
+but i build, test, break, and improve fast
 
-if something here interests you, go explore.
-that’s the whole point.
+if something here interests you, go explore
+that’s the whole point
+
+<br>
 
 [![wakatime](https://wakatime.com/badge/user/YOUR-WAKATIME-ID.svg?style=flat-square)](https://wakatime.com)
