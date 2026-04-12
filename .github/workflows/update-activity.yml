@@ -1,20 +1,58 @@
-name: Update GitHub Activity README
+name: Update GitHub Activity
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # This tells it to run automatically every 12 hours
-  workflow_dispatch: # This allows you to click a button and run it manually
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
-    name: Update this repo's README with recent activity
-
+    permissions:
+      contents: write # This gives the bot permission to push changes
+      
     steps:
-      - uses: actions/checkout@v3
-      - uses: jamesgeorge1/github-activity-readme@master
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Fetch and Format Activity
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: "⚡ auto-update: recent activity logs"
-          MAX_LINES: 5
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 1. Use official GitHub CLI to fetch your last 5 coding events
+          gh api /users/Tanaybaviskar/events/public \
+            --jq '[.[] | select(.type=="PushEvent" or .type=="PullRequestEvent" or .type=="IssuesEvent" or .type=="CreateEvent")] | .[0:5] | map("- \(.type) on `\(.repo.name)`") | join("\n")' > activity.md
+          
+          # 2. Make the bot language sound human
+          sed -i 's/PushEvent/Pushed code/g' activity.md
+          sed -i 's/PullRequestEvent/Opened PR/g' activity.md
+          sed -i 's/IssuesEvent/Opened issue/g' activity.md
+          sed -i 's/CreateEvent/Created repo\/branch/g' activity.md
+          
+          # 3. Inject the logs exactly between your invisible tags
+          awk '
+            // {
+              print
+              system("cat activity.md")
+              skip=1
+              next
+            }
+            // {
+              skip=0
+            }
+            !skip {
+              print
+            }
+          ' README.md > temp.md
+          
+          # 4. Clean up
+          mv temp.md README.md
+          rm activity.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "⚡ auto-update: system logs" || echo "No new activity to commit"
+          git push
