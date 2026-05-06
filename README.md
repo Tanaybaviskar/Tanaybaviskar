@@ -15,8 +15,7 @@ right now i’m working on:
 
 if you want to see what that looks like in practice:
 
-🔗 **[CoreAI](https://github.com/Tanaybaviskar/CoreAI)** ![Last Commit](https://img.shields.io/github/last-commit/Tanaybaviskar/CoreAI?style=flat-square&color=black&label=updated)
-🔗 **[lng-geoenv](https://github.com/Tanaybaviskar/lng-geoenv)** ![Last Commit](https://img.shields.io/github/last-commit/Tanaybaviskar/lng-geoenv?style=flat-square&color=black&label=updated)
+🔗 **[Ghost](https://github.com/Tanaybaviskar/ghost-observer)** ![Last Commit](https://img.shields.io/github/last-commit/Tanaybaviskar/ghost-observer?style=flat-square&color=black&label=updated)
 *(and yeah, pinned repos cover the rest)*
 
 
