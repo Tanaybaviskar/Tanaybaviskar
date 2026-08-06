@@ -16,6 +16,7 @@ right now i’m working on:
 if you want to see what that looks like in practice:
 
 🔗 **[Ghost](https://github.com/Tanaybaviskar/ghost-observer)** ![Last Commit](https://img.shields.io/github/last-commit/Tanaybaviskar/ghost-observer?style=flat-square&color=black&label=updated)
+🔗 **[RaftKV](https://github.com/Tanaybaviskar/raftkv)** ![Last Commit](https://img.shields.io/github/last-commit/Tanaybaviskar/raftkv?style=flat-square&color=black&label=updated)
 *(and yeah, pinned repos cover the rest)*
 
 
